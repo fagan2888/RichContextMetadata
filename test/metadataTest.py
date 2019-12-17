@@ -42,7 +42,7 @@ class TestSample(unittest.TestCase):
 
 if __name__ == '__main__':
     metadata_dir_path = os.path.dirname(os.path.abspath(__file__)) + "/../metadata"
-    print(sys.argv)
+
     if len(sys.argv) == 1:
         csv_wild_path = "/*/*.csv"
         print("Checking Metadata Files In: {}".format(metadata_dir_path + csv_wild_path))
